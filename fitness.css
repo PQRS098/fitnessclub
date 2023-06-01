@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+.logo {
+
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li a {
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 15px 30px;
+    display: flex;
+}
+
+li a:hover {
+    /* background-color: yellow; */
+    color: yellow;
+}
+
+section {
+    height: 1000px;
+}
+
+.back {
+    height: 1000px;
+    background: url(gym-back.jpg) no-repeat center;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    /* margin-top: 100px; */
+    /* padding-top: 120px; */
+}
+
+.hyper {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 15px;
+}
+
+.backtoback {
+    padding-top: 250px;
+}
+
+.btn {
+    color: white;
+    margin-top: 100px;
+    margin-left: 700px;
+    padding: 20px;
+    font-size: 20px;
+    border: 2px solid orange;
+    background: none;
+    /* font-weight: bold; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn:hover {
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+}
+
+.container {
+    height: 1450px;
+    background-color: black;
+}
+
+.high {
+    padding-top: 50px;
+}
+
+.sub-container {
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+    display: grid;
+    text-align: center;
+    /* grid-template-columns: auto auto auto; */
+    /* grid-template-rows: auto auto auto; */
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    row-gap: 220px;
+    column-gap: 15px;
+    /* background-color: coral; */
+    /* margin-left: 50px; */
+}
+
+.item-1 {
+    /* display: flex; */
+    /* display: grid;
+    row-gap: 10px; */
+    gap: 10px;
+    width: 360px;
+    height: 200px;
+    /* background-color: blue; */
+    /* grid-column: 1 / 4;
+    grid-row: 1 / 4; */
+}
+
+.item-2 {
+    width: 360px;
+    height: 200px;
+    /* background-color: red; */
+    /* grid-row: 1 / 4;
+    grid-column: 2 / 4 ; */
+}
+
+.item-3 {
+    width: 360px;
+    height: 200px;
+    /* background-color: orange; */
+    /* grid-column: 3 / 4;
+    grid-row: 1 / 4; */
+}
+
+.item-4 {
+    width: 360px;
+    height: 200px;
+    /* background-color: purple; */
+    /* grid-column: 1 / 4;
+    grid-row: 2 / 4; */
+}
+
+.item-5 {
+    width: 360px;
+    height: 200px;
+    /* background-color: pink; */
+    /* grid-column: 2 / 4;
+    grid-row: 2 / 4; */
+}
+
+.item-6 {
+    width: 360px;
+    height: 200px;
+    /* background-color: yellow; */
+    /* grid-column: 3 / 4;
+    grid-row: 2 / 4; */
+}
+
+.item-7 {
+    width: 360px;
+    height: 200px;
+    /* background-color: olive; */
+    /* grid-column: 1 / 4;
+    grid-row: 3 / 4; */
+}
+
+.item-8 {
+    width: 360px;
+    height: 200px;
+    /* background-color: palegreen; */
+    /* grid-column: 2 / 4;
+    grid-row: 3 / 4; */
+}
+
+.item-9 {
+    width: 360px;
+    height: 200px;
+    /* background-color: peru; */
+    /* grid-column: 3 / 4;
+    grid-row: 3 / 4; */
+}
+
+.box {
+    /* width: 400px;
+    height: 700px; */
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tango {
+    height: 100px;
+    background-color: white;
+    color: black;
+    padding: 20px 0px 5px 0px;
+    font-size: 15px;
+}
+
+.top {
+    height: 60px;
+    background-color: orange;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.attach {
+    color: black;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    /* text-decoration: underline; */
+    border-bottom: orange 2px solid;
+}
+
+.sub-high {
+    color: black;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.main {
+    height: 1000px;
+    background-color: white;
+}
+
+.groom {
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    margin: 0px 180px 0px 300px;
+}
+
+.imp-1 {
+    height: 400px;
+    width: 350px;
+    /* margin-left: 170px; */
+    background-image: url("https://img.freepik.com/free-photo/portrait-attractive-young-woman-doing-yoga-pilates-exercise_1153-5119.jpg?w=740&t=st=1685198883~exp=1685199483~hmac=17d434966a9fd420ef6d7b1b67706c6cd5f1f382e253ac421666a3ad691112da");
+    background-size: cover;
+}
+
+.imp-2 {
+    height: 400px;
+    width: 350px;
+    background-image: url("https://img.freepik.com/premium-photo/man-using-exercise-bike-gym-fitness-male-using-air-bike-cardio-workout-functional-training-gym_157927-18306.jpg?w=740");
+    background-size: cover;
+}
+
+.imp-3 {
+    height: 400px;
+    width: 350px;
+    /* margin-right: 400px; */
+    background-image: url("https://img.freepik.com/free-photo/man-practicing-boxing_1208-188.jpg?w=740&t=st=1685199095~exp=1685199695~hmac=99ff10082267bc8653c78f06aec732e1827929d9b17f60d6ec9e70c8a6328a77");
+    background-size: cover;
+}
+
+.imp-4 {
+    height: 400px;
+    width: 350px;
+    /* margin-left: 170px; */
+    background-image: url("https://img.freepik.com/free-photo/fitness-woman-sitting-lotus-pose-meditating_171337-15677.jpg?w=996&t=st=1685199213~exp=1685199813~hmac=911918cdef4327e722aa0fb5bd13c0ed97016d88b205567c2b4f220f333723c7");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imp-5 {
+    height: 400px;
+    width: 350px;
+    background-image: url("https://img.freepik.com/free-photo/young-beautiful-sportive-girl-smiling-training-dark_176420-42248.jpg?w=740&t=st=1685199342~exp=1685199942~hmac=5c2344f2b89aea1cab9e79b4126049cacde9ce8325606f9ac36ab92484a26c47");
+    background-size: cover;
+}
+
+.imp-6 {
+    height: 400px;
+    width: 350px;
+    /* margin-right: 400px; */
+    background-image: url("https://img.freepik.com/free-photo/long-shot-athletic-people-training-boxing-competition_23-2148416660.jpg?w=826&t=st=1685199431~exp=1685200031~hmac=a2bbe695077fdad054b65fa34caeba83cb4ed0998aa9a201631de70c903a9cb4");
+    background-size: cover;
+}
+
+.under {
+    /* display: flex; */
+    /* position: absolute; */
+    margin-top: 320px;
+    margin-left: 15px;
+    align-self: last baseline;
+    font-size: 20px;
+    /* border-top: 2px solid white; */
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
+}
+
+.sample {
+    color: white;
+    margin-top: 10px;
+}
+
+.social-media {
+    height: 800px;
+    background-image: url("https://img.freepik.com/free-photo/young-woman-boxer-training-gym_1303-18842.jpg?w=996&t=st=1685203825~exp=1685204425~hmac=4603cb03c81059b3f2046cf2eccbeaffb9d408bd4122f833c2e2659e9faf7cc9");
+    background-size: cover;
+    opacity: 0.8;
+
+}
+
+box-icon {
+    /* size: "lg"; */
+    /* color: orange; */
+    margin-left: 900px;
+    margin-top: 250px;
+
+}
+
+.cpu {
+    font-size: 50px;
+    margin-left: 400px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.like {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-left: 825px;
+    margin-top: 700px;
+}
+
+.like:hover {
+    color: orange;
+}
+
+.contact {
+    height: 750px;
+    /* background-color: orange; */
+    background: url("https://img.freepik.com/free-photo/abstract-smooth-orange-background-layout-design-studio-room-web-template-business-report-with-smooth-circle-gradient-color_1258-79739.jpg?w=996&t=st=1685456834~exp=1685457434~hmac=41a95f526d4d5240ccad8b92d8d5891765689826e0552f1e5a92f6cce575e5a5");
+    /* z-index: -1; */
+    margin: 0px;
+    border: 1px solid black;
+}
+
+.us {
+    /* position: relative; */
+    height: 600px;
+    width: 800px;
+    background-color: white;
+    /* z-index: -1; */
+    margin: 100px auto;
+    border: 1px solid black;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.meet {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    /* padding: px; */
+    width: 360px;
+    height: 50px;
+    font-size: 20px;
+    background-color: lightgrey;
+}
+
+.me {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left {
+    margin-left: 24px;
+}
+
+textarea {
+    margin-left: 24px;
+    width: 749px;
+    height: 150px;
+    font-size: 20px;
+    background-color: lightgrey;
+    padding-top: 10px;
+}
+
+.tin {
+    width: 749px;
+    margin-left: 24px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
